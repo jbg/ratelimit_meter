@@ -220,6 +220,7 @@
 #![cfg_attr(feature = "cargo-clippy", deny(warnings))]
 
 pub mod algorithms;
+pub mod clock;
 mod errors;
 pub mod example_algorithms;
 pub mod instant;
